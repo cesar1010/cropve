@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+  <div ng-app="cropApp">
+  
+  <div ng-controller="Controller">
+  <my-crop width="300" height="300" path="{{profile.photo.path}}" on-Save="Save()" on-Init="Init()"><my-crop>
+  </div>
+  
+  </div>
+  <!----  <img class='img-crop' src="" />---->
+  </body>
+
+</html>

@@ -1,0 +1,17 @@
+/* Styles go here */
+body{
+  font-family:Arial;
+}
+img{
+  width:500px;
+  position:absolute;
+  left:0;
+  top:0;
+}
+
+.crop-container{
+border:1px solid #000;
+position:relative;
+overflow:hidden;
+cursor:pointer;
+}
